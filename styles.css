@@ -9,9 +9,8 @@
   font-size: 48px;
   font-weight: 700;
   color: white;
-  margin: 141px 0px;
+  margin: 119px 0px;
   font-weight: bold;
-  
 }
 
 body {
@@ -28,66 +27,105 @@ body {
   background-size: cover;
   height: 415px;
   padding-top: 25px;
-  
 }
 
-.textos-centrais{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    
+.textos-centrais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.bottom-left-text{
-    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 14px;
-font-weight: bold;
+.bottom-left-text {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 6%;
-    
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6%;
 }
 
-.button{
-    border: none;
-    border-radius: 0 4px 4px 0;
-    color: #fff;
-    font-weight: 700;
-    padding: 12px 16px;
-    text-align: center;
-    background-color: red;
-    cursor: pointer;
+.button {
+  border: none;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 16px;
+  text-align: center;
+  background-color: red;
+  cursor: pointer;
 }
 
-.pesquisar-box{
-    display: flex;
+.pesquisar-box {
+  display: flex;
 }
 
-.link-button{
-    margin: 0px 12px;
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
+.link-button {
+  margin: 0px 12px;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 11px 14px;
+  font-size: 14px;
 }
 
-.button-secondary{
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 4px;
-    padding: 18px ;
-    color: #fff;
-    font-weight: bold;
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 9px 18px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #ffffff4d;
+}
+button:last-child:hover {
+  background-color: red;
+}
+
+.button-primary {
+  background-color: red;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 11px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.primeira-barra-pesquisa {
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid transparent;
+  padding: 10px;
+}
+
+.segunda-barra-pesquisa {
+  border: 1px solid transparent;
+  border-left: 1px solid #ebebeb;
+  padding: 10px;
+}
+
+.filtro-pesquisa {
+  color: #fff;
+  padding: 16px 15px;
+  font-size: 14px;
+
 }
